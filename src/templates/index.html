@@ -33,14 +33,14 @@
         </div>
       </div>
 
-      <p>
+      <p class="screen">
         I'm passionate about using technology to solve problems and create innovative solutions. I have experienced a wide range different of
         technologies ranging from mobile to web throughout all phases of the SDLC. I contribute to the design of high performing solutions and
         architecture that can scale as the business grows. I thrive in being adaptable in different environments and strive to keep my customers
         satisfied.
       </p>
 
-      <h2 class="screen">Technical Skills</h2>
+      <h2>Skills</h2>
       <div class="row mb-4">
         {{#each skills}}
         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
@@ -51,37 +51,53 @@
         </div>
         {{/each}}
       </div>
+      <!-- <div class="row mb-4">
+        {{#each skills}}
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+          <small>{{ this.[0] }}</small>
+        </div>
+        <div class="col-print-1 col-3 col-md-2 col-lg-1">
+          {{ this.[1] }}
+        </div>
+        {{/each}}
+      </div> -->
 
 
       <h2>Professional Experience</h2>
-      {{#each experience}}
-      <div class="mb-4">
-      </div>
-      {{/each}}
-      <!-- {{#each plays}}
-      <div class="card mb-4">
-          <div class="card-body">
-              <h4>{{ title }}</h4>
-              <p class="text-muted">{{ written }}</p>
+      <div class="experience-section">
+        {{#each experience}}
+        <div class="mb-4">
+          <h5>{{ title }}, {{ company }}</h5>
+          <h6 class="text-muted">{{ start }} &mdash; {{ end }}</h6>
+          {{ blurb }}
+          <ul>
+            {{#each items}}
+            <li>{{ this }}</li>
+            {{/each}}
+          </ul>
 
-              {{{markdown contents }}}
-
-              <div>
-                  {{#each badges }}
-                  <span class="badge badge-primary">{{ this }}</span>
-                  {{/each}}
-              </div>
+          <div>
+            {{#each badges }}
+              <span class="badge badge-primary">{{ this }}</span>
+            {{/each}}
           </div>
+        </div>
+        {{/each}}
       </div>
-      {{/each}} -->
 
 
       <h2>Education</h2>
-      <b>The University of Auckland</b> (July 2011 - 2014)
-      <p>Bachelor of Commerce (Information Systems and Management)</p>
+      <div class="education-section mb-4">
+        <b>The University of Auckland</b> (July 2011 - 2014)
+        <p>Bachelor of Commerce (Information Systems and Management)</p>
+      </div>
 
-      <b>Microsoft Certified Professional</b> (May 2016 - Current)
-      <p>Microsoft Specialist: Exam 70-480 Programming in HTML5 with Javascript and CSS</p>
+
+      <h2>Certifications</h2>
+      <div class="education-section mb-4">  
+        <b>Microsoft Certified Professional</b> (May 2016 - Current)
+        <p>Microsoft Specialist: Exam 70-480 Programming in HTML5 with JavaScript and CSS</p>
+      </div>
 
       <!-- <h3>Additional Experience</h3>
 
@@ -90,7 +106,6 @@
           <div class="card-body">
               <div class="mb-2"><strong>{{ header }}</strong></div>
 
-              {{{markdown contents }}}
 
               <div>
                   {{#each skills }}
@@ -103,13 +118,13 @@
 
 
       <h2>Interests</h2>
-      {{#each interests}}
-      <div class="interests-section">
+      <div class="interests-section mb-4">
         <ul>
+          {{#each interests}}
           <li>{{ name }} &mdash; {{ description }}</li>
+          {{/each}}
         </ul>
       </div>
-      {{/each}}
 
 
       <h2>Referees</h2>

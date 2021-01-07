@@ -3,16 +3,16 @@ module.exports = {
   title: 'Full Stack Developer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
-                  <i class="fas fa-home"></i> Auckland, New Zealand
+                  <i class="fa fa-home"></i> Auckland, New Zealand
                 </a>`,
     'LinkedIn': `<a href="https://www.linkedin.com/in/kawaiw/">
-                  <i class="fab fa-linkedin"></i> kawaiw
+                  <i class="fa fa-linkedin"></i> kawaiw
                 </a>`,
     'GitHub': `<a href="https://github.com/fancycoconut">
-                  <i class="fab fa-github"></i> fancycoconut
+                  <i class="fa fa-github"></i> fancycoconut
                 </a>`,
     'Email': `<a href="mailto:kawai.wong@outlook.co.nz">
-                <i class="fas fa-envelope"></i> kawai.wong@outlook.co.nz
+                <i class="fa fa-envelope"></i> kawai.wong@outlook.co.nz
               </a>`
   },
   skills: [
@@ -36,23 +36,47 @@ module.exports = {
       location: 'Auckland',
       start: 'January 2018',
       end: 'Current',
-      content: ``
+      blurb: 'Currently in the IoT team working on a next generation',
+      items: [
+
+      ],
+      badges: []
     },
     {
-      title: 'Software Developer',
+      title: 'Software Developer (ASB Bank)',
       company: 'Datacom',
       location: 'Auckland',
       start: 'February 2015',
       end: 'December 2017',
-      content: ``
+      blurb: 'Assigned as a Software Developer to work on ASB Bank\'s CRM system mainly in the domain of home loan applications and customer onboarding',
+      items: [
+        'Designed and developed REST microservices for various domains from a CRM perspective',
+        'Introduced, designed and developed an automated test strategy for the CRM team',
+        'Designed and developed new CRM components that added new functionality to the CRM',
+        'Involved as a lead developer and subject matter export in large projects on multiple occassions in design discussions and estimating timelines',
+        'Worked on various compliance projects that are required by the Reserve Bank\'s legislative changes',
+        'Involved on a large-scale enterprise upgrade project for ASB CRM system',
+        'Experienced working with enterprise HOST systems',
+        'Worked on business-as-usual enhancements and bugfixes for Onyx'
+      ],
+      badges: ['C#', 'ASP.NET Web API', 'ASP.NET Web Forms', 'SQL Server', 'WCF', 'Onyx CRM', 'Octopus Deploy', 'integration'],
     },
     {
       title: 'Junior Developer',
       company: 'ACIT',
       location: 'Auckland',
-      start: 'January 2018',
-      end: 'Current',
-      content: ``
+      start: 'November 2012',
+      end: 'November 2014',
+      blurb: 'Build and maintain customized web-based business workflow management solutions and maternity management software for midwives.',
+      items: [
+        'Researched and developed an antenatal growth chart generator to integrate with the existing maternity management software',
+        'Built user interfaces for workflow management solutions and introduced a windows metro style design to new projects',
+        'Built and designed reports for reporting for workflow management',
+        'Maintain and developed customized workflow management software for various small to medium businesses',
+        'Performed data migration exercises when migrating from legacy systems and integraton',
+        'Worked with clients to troubleshoot issues and fix bugs'
+      ],
+      badges: ['C#', 'ASP.NET MVC', 'ASP.NET Web Forms', 'SQL Server', 'WPF', 'Windows forms', 'SQL Server Reporting Services', 'HTML5', 'JavaScript', 'CSS', 'jQuery', 'angularJS', 'Visual Basic']
     },
     {
       title: 'Student Intern',
@@ -60,56 +84,20 @@ module.exports = {
       location: 'Auckland',
       start: 'March 2013',
       end: 'October 2013',
-      content: `
-      `
-    }
-  ],
-  plays: [
-    {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
-    },
-    {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
-    },
-    {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
-  ],
-  experience: [
-    {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV companies.',
+      items: [
+        'Performed feasibility studies and investigations on various solutions such as Oracle, Pentaho Mondrian, Palo',
+        'Researched various OLAP implementations: MOLAP, ROLAP and HOLAP',
+        'Performed ETL based on sample data sets from Hansen\'s CISs (Customer Information System)',
+        'Created a proof of concept solution consists of pivot tables, reports and dashboards'
+      ],
+      badges: ['OLAP', 'ETL', 'Data Warehousing', 'Data Visualization', 'Java']
     }
   ],
   interests: [
     {
       name: 'Tech',
-      description: 'anything tech related, regardless of gadgets, topics, or side projects'
+      description: 'anything tech related: gadgets, topics, or side projects'
     },
     {
       name: 'Socializing',
