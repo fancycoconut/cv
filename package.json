@@ -1,6 +1,6 @@
 {
-  "name": "cv-template",
-  "description": "The Curriculum Vitae Template",
+  "name": "cv-fancycoconut",
+  "description": "Curriculum Vitae - Kawai Wong",
   "scripts": {
     "build": "node src/build.js",
     "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sneas/cv-project.git"
+    "url": "git+https://github.com/fancycoconut/cv.git"
   },
   "keywords": [
     "cv",

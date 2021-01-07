@@ -1,4 +1,4 @@
-# The Curriculum Vitae Template
+# Curriculum Vitae - Kawai Wong
 
 You are an amazing developer. Keep your CV on GitHub. Host it on GitHub Pages. Have both HTML and PDF versions automatically generated and consistent. This is what good developers do.
 

@@ -1,13 +1,19 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Kawai Wong',
+  title: 'Full Stack Developer',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
+    'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
+                  <i class="fas fa-home"></i> Auckland, New Zealand
                 </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'LinkedIn': `<a href="https://www.linkedin.com/in/kawaiw/">
+                  <i class="fab fa-linkedin"></i> kawaiw
+                </a>`,
+    'GitHub': `<a href="https://github.com/fancycoconut">
+                  <i class="fab fa-github"></i> fancycoconut
+                </a>`,
+    'Email': `<a href="mailto:kawai.wong@outlook.co.nz">
+                <i class="fas fa-envelope"></i> kawai.wong@outlook.co.nz
+              </a>`
   },
   skills: [
     ['Comedy', '++++'],
@@ -22,6 +28,41 @@ module.exports = {
     ['Directing', '+++'],
     ['Literature', '++++'],
     ['Influence', '++++'],
+  ],
+  experience: [
+    {
+      title: 'Solutions Developer',
+      company: 'Fisher & Paykel Healthcare',
+      location: 'Auckland',
+      start: 'January 2018',
+      end: 'Current',
+      content: ``
+    },
+    {
+      title: 'Software Developer',
+      company: 'Datacom',
+      location: 'Auckland',
+      start: 'February 2015',
+      end: 'December 2017',
+      content: ``
+    },
+    {
+      title: 'Junior Developer',
+      company: 'ACIT',
+      location: 'Auckland',
+      start: 'January 2018',
+      end: 'Current',
+      content: ``
+    },
+    {
+      title: 'Student Intern',
+      company: 'Hansen Technologies',
+      location: 'Auckland',
+      start: 'March 2013',
+      end: 'October 2013',
+      content: `
+      `
+    }
   ],
   plays: [
     {
@@ -63,6 +104,28 @@ Thousands of performances of my plays have been staged since the end of the 16th
       contents: `
 In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
 `
+    }
+  ],
+  interests: [
+    {
+      name: 'Tech',
+      description: 'anything tech related, regardless of gadgets, topics, or side projects'
+    },
+    {
+      name: 'Socializing',
+      description: 'really enjoy spending time with family and friends'
+    },
+    {
+      name: 'Music',
+      description: 'enjoy playing guitar and listening to classical and modern contemporary music'
+    },
+    {
+      name: 'Sports and fitness',
+      description: 'keen interest in maintaining my personal fitness level and playing badminton'
+    },
+    {
+      name: 'Reading',
+      description: 'enjoy reading books on self-development, business and finance'
     }
   ]
 };
