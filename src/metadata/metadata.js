@@ -16,18 +16,54 @@ module.exports = {
               </a>`
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    {
+      name: 'Technical Skills',
+      examples: [
+        'Microsoft stack: C#, ASP.NET & ASP.NET Core, Web API, MVC, WebForms, Windows Forms, WPF, EntityFramework, SpecFlow',
+        'Modern Web stack: JavaScript, TypeScript, NodeJS, jQuery, React, Redux, Angular, HTML5, CSS3, WebPack, SASS/LESS, Bootstrap',
+        'Infrastructure: SQL Server, CosmosDB, MongoDB, RabbitMQ, Azure DevOps CI/CD, Visual Studio project templates, Docker',
+        'Other: PHP, Python, Visual Basic, Swift, Protobuf, CoAP',
+        'Experienced in full stack web development & integration using industry standard techologies and frameworks',
+        'Experienced with all stages of the Software Development Life Cycle',
+      ]
+    },
+    {
+      name: 'Leadership Skills',
+      examples: [
+        'Worked as a lead developer on large enterprise projects on multiple occassions at ASB Bank',
+        'Involved with project design workshops and meetings as a subject matter expert at ASB Bank',
+        'Proactive in taking up responsibilties within my expertise and knowledge area',
+        'Initiating proof of concepts and side projects to improve existing processes'
+      ]
+    },
+    {
+      name: 'Interpersonal and Communication Skills',
+      examples: [
+        'Client facing skills gained as a consultant',
+        'Excellent verbal and written communication skills',
+        'Confident in delivering business or team presentations',
+        'Experienced in writing detailed specifications and various forms of documentation',
+        'Fluent in English, Cantonese and Mandarin'
+      ]
+    },
+    {
+      name: 'Analytical and Problem-Solving Skills',
+      examples: [
+        'Able to break complicated business rules into simple or elegant solutions',
+        'Able to translate business requirements into system functionality',
+        'Estimate work and come up with best solution proposals',
+        'Able to troubleshoot complex issues and unfamiliar technologies'
+      ]
+    },
+    {
+      name: 'Learning Skills',
+      examples: [
+        'Adapting very quickly to various working environments',
+        'Build up relevant domain knowledge in a short time frame',
+        'Confident in learning and picking up new technology stacks and frameworks',
+        'Work on side projects in free time'
+      ]
+    }
   ],
   experience: [
     {
@@ -36,11 +72,11 @@ module.exports = {
       location: 'Auckland',
       start: 'January 2018',
       end: 'Current',
-      blurb: 'Currently in the IoT team working on a next generation',
+      blurb: 'Currently in the IoT team working on a next generation over-the-air solution for FPH devices',
       items: [
 
       ],
-      badges: []
+      badges: ['C#', 'NET Core', 'Infrastructure']
     },
     {
       title: 'Software Developer (ASB Bank)',
@@ -48,18 +84,18 @@ module.exports = {
       location: 'Auckland',
       start: 'February 2015',
       end: 'December 2017',
-      blurb: 'Assigned as a Software Developer to work on ASB Bank\'s CRM system mainly in the domain of home loan applications and customer onboarding',
+      blurb: 'Assigned as a Software Developer to work on ASB Bank\'s CRM system in the domain of home loan origination and customer onboarding',
       items: [
         'Designed and developed REST microservices for various domains from a CRM perspective',
-        'Introduced, designed and developed an automated test strategy for the CRM team',
+        'Led the development and design of an automated test strategy for the CRM team',
         'Designed and developed new CRM components that added new functionality to the CRM',
         'Involved as a lead developer and subject matter export in large projects on multiple occassions in design discussions and estimating timelines',
-        'Worked on various compliance projects that are required by the Reserve Bank\'s legislative changes',
-        'Involved on a large-scale enterprise upgrade project for ASB CRM system',
+        'Delivered various compliance projects that are required by the Reserve Bank\'s legislative changes on time',
+        'Involved with a large-scale enterprise upgrade project for ASB CRM system',
         'Experienced working with enterprise HOST systems',
         'Worked on business-as-usual enhancements and bugfixes for Onyx'
       ],
-      badges: ['C#', 'ASP.NET Web API', 'ASP.NET Web Forms', 'SQL Server', 'WCF', 'Onyx CRM', 'Octopus Deploy', 'integration'],
+      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'ASP.NET Web Forms', 'SQL Server', 'WCF', 'SpecFlow', 'Onyx CRM', 'Octopus Deploy', 'Integration'],
     },
     {
       title: 'Junior Developer',
@@ -67,7 +103,7 @@ module.exports = {
       location: 'Auckland',
       start: 'November 2012',
       end: 'November 2014',
-      blurb: 'Build and maintain customized web-based business workflow management solutions and maternity management software for midwives.',
+      blurb: 'Developed and maintained customized web-based business workflow management solutions and maternity management software for midwives.',
       items: [
         'Researched and developed an antenatal growth chart generator to integrate with the existing maternity management software',
         'Built user interfaces for workflow management solutions and introduced a windows metro style design to new projects',
@@ -115,5 +151,6 @@ module.exports = {
       name: 'Reading',
       description: 'enjoy reading books on self-development, business and finance'
     }
-  ]
+  ],
+  interestTags: ['Technology', 'Music', 'Books', 'Sports & Fitness', 'Business', 'Finance']
 };

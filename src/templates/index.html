@@ -41,13 +41,15 @@
       </p>
 
       <h2>Skills</h2>
-      <div class="row mb-4">
+      <div class="skills-section mb-4">
         {{#each skills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-          <small>{{ this.[0] }}</small>
-        </div>
-        <div class="col-print-1 col-3 col-md-2 col-lg-1">
-          {{ this.[1] }}
+        <div>
+          <b>{{ name }}</b>
+          <ul>
+            {{#each examples}}
+            <li>{{ this }}</li>
+            {{/each}}
+          </ul>
         </div>
         {{/each}}
       </div>
@@ -124,6 +126,13 @@
           <li>{{ name }} &mdash; {{ description }}</li>
           {{/each}}
         </ul>
+      </div>
+
+      <h2>Interests</h2>
+      <div class="interests-section mb-4">
+        {{#each interestTags}}
+        <span class="badge badge-primary">{{ this }}</span>
+        {{/each}}
       </div>
 
 
