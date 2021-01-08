@@ -118,23 +118,12 @@
       </div>
       {{/each}} -->
 
-
       <h2>Interests</h2>
       <div class="interests-section mb-4">
-        <ul>
-          {{#each interests}}
-          <li>{{ name }} &mdash; {{ description }}</li>
-          {{/each}}
-        </ul>
-      </div>
-
-      <h2>Interests</h2>
-      <div class="interests-section mb-4">
-        {{#each interestTags}}
+        {{#each interests}}
         <span class="badge badge-primary">{{ this }}</span>
         {{/each}}
       </div>
-
 
       <h2>Referees</h2>
       <p>Available upon request.</p>

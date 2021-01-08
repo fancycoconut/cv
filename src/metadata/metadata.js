@@ -23,8 +23,9 @@ module.exports = {
         'Modern Web stack: JavaScript, TypeScript, NodeJS, jQuery, React, Redux, Angular, HTML5, CSS3, WebPack, SASS/LESS, Bootstrap',
         'Infrastructure: SQL Server, CosmosDB, MongoDB, RabbitMQ, Azure DevOps CI/CD, Visual Studio project templates, Docker',
         'Other: PHP, Python, Visual Basic, Swift, Protobuf, CoAP',
-        'Experienced in full stack web development & integration using industry standard techologies and frameworks',
-        'Experienced with all stages of the Software Development Life Cycle',
+        'Experienced in web development & integration using industry standard techologies and frameworks',
+        'Experienced with all stages of the Software Development Life Cycle and agile methodologies',
+        'Experienced and knowledge of best practices for software design and architecture'
       ]
     },
     {
@@ -72,11 +73,27 @@ module.exports = {
       location: 'Auckland',
       start: 'January 2018',
       end: 'Current',
-      blurb: 'Currently in the IoT team working on a next generation over-the-air solution for FPH devices',
+      blurb: 'Currently in the IoT team working on a next generation over-the-air solution for future FPH devices',
       items: [
-
+        'Involved with and contributed towards the design of future system architecture and strategy',
+        'Rapidly prototyped new concepts and ideas',
+        'Involved with the delivery of customer integration projects that allows our clients to access our patient management APIs',
+        'Developed a parser for the CoAP protocol for both UDP and TCP variants for NET',
+        'Co-developed a gateway for IoT devices that integrates with the in-house communications protocol',
+        'Co-developed various infrastructure Web APIs for enabling a next generation over-the-air solution',
+        'Co-developed a dynamic serializer/deserializer library for Protobuf',        
+        'Involved with project delivery and coordination for the corporate website that required dealing with various stakeholders from Marketing Operations as well as a remote developer',
+        'Developed a custom module for the Kentico CMS used for bundling and packaging content for mobile apps',
+        'Create and build CI/CD pipelines for different projects',
+        'Set up automated testing infrastructure such as SpecFlow and various other tooling such as project templates and test harnesses',
+        'Developed new features for a world class Obstructive Sleep Apnea patient management and monitoring cloud based solution',
+        'Involved with the development and distribution of educational mobile apps for training purposes using React Native',
+        'Rewrote the existing user registration process for the SleepStyle iOS app to migrate from Objective-C to Swift and Storyboard',
+        'Involved with knowledge sharing of domain and system architecture to team members',
+        'Mentor junior members on best practices of software design and architecture',
+        'Experienced with design controls for medical devices'
       ],
-      badges: ['C#', 'NET Core', 'Infrastructure']
+      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'ASP.NET Web Forms', 'SQL Server', 'CosmosDB', 'Dapper', 'AutoMapper', 'Windsor Castle', 'EntityFramework', 'Identity Server', 'SpecFlow', 'Infrastructure', 'Azure Event Hub', 'RabbitMQ', 'Redis', 'Azure DevOps CI/CD', 'Swift', 'Objective-C', 'React Native', 'Protobuf', 'CoAP', 'Design Controls', 'ISO27001']
     },
     {
       title: 'Software Developer (ASB Bank)',
@@ -86,12 +103,12 @@ module.exports = {
       end: 'December 2017',
       blurb: 'Assigned as a Software Developer to work on ASB Bank\'s CRM system in the domain of home loan origination and customer onboarding',
       items: [
-        'Designed and developed REST microservices for various domains from a CRM perspective',
+        'Designed and developed REST microservices for various CRM domains',
         'Led the development and design of an automated test strategy for the CRM team',
-        'Designed and developed new CRM components that added new functionality to the CRM',
-        'Involved as a lead developer and subject matter export in large projects on multiple occassions in design discussions and estimating timelines',
+        'Designed and developed new components that added new functionality to the CRM',
+        'Involved as a lead developer and subject matter expert in large projects on multiple occassions to provide guidance and technical support',
         'Delivered various compliance projects that are required by the Reserve Bank\'s legislative changes on time',
-        'Involved with a large-scale enterprise upgrade project for ASB CRM system',
+        'Involved with a large-scale enterprise upgrade project for ASB\'s CRM system',
         'Experienced working with enterprise HOST systems',
         'Worked on business-as-usual enhancements and bugfixes for Onyx'
       ],
@@ -103,14 +120,14 @@ module.exports = {
       location: 'Auckland',
       start: 'November 2012',
       end: 'November 2014',
-      blurb: 'Developed and maintained customized web-based business workflow management solutions and maternity management software for midwives.',
+      blurb: 'Developed and maintained customized business workflow management solutions and maternity management software for midwives.',
       items: [
         'Researched and developed an antenatal growth chart generator to integrate with the existing maternity management software',
         'Built user interfaces for workflow management solutions and introduced a windows metro style design to new projects',
-        'Built and designed reports for reporting for workflow management',
-        'Maintain and developed customized workflow management software for various small to medium businesses',
-        'Performed data migration exercises when migrating from legacy systems and integraton',
-        'Worked with clients to troubleshoot issues and fix bugs'
+        'Designed and developed reports for various workflow management systems',
+        'Develop and maintain customized workflow management software for various small to medium businesses',
+        'Performed data migration exercises when integrating or migrating from legacy systems',
+        'Worked with clients to troubleshoot and diagnose issues'
       ],
       badges: ['C#', 'ASP.NET MVC', 'ASP.NET Web Forms', 'SQL Server', 'WPF', 'Windows forms', 'SQL Server Reporting Services', 'HTML5', 'JavaScript', 'CSS', 'jQuery', 'angularJS', 'Visual Basic']
     },
@@ -120,37 +137,15 @@ module.exports = {
       location: 'Auckland',
       start: 'March 2013',
       end: 'October 2013',
-      blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV companies.',
+      blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV clients.',
       items: [
         'Performed feasibility studies and investigations on various solutions such as Oracle, Pentaho Mondrian, Palo',
         'Researched various OLAP implementations: MOLAP, ROLAP and HOLAP',
         'Performed ETL based on sample data sets from Hansen\'s CISs (Customer Information System)',
-        'Created a proof of concept solution consists of pivot tables, reports and dashboards'
+        'Developed a proof of concept solution consists of pivot tables, reports and dashboards'
       ],
-      badges: ['OLAP', 'ETL', 'Data Warehousing', 'Data Visualization', 'Java']
+      badges: ['OLAP', 'ETL', 'Data Warehousing', 'Data Visualization', 'Java', 'MySQL']
     }
   ],
-  interests: [
-    {
-      name: 'Tech',
-      description: 'anything tech related: gadgets, topics, or side projects'
-    },
-    {
-      name: 'Socializing',
-      description: 'really enjoy spending time with family and friends'
-    },
-    {
-      name: 'Music',
-      description: 'enjoy playing guitar and listening to classical and modern contemporary music'
-    },
-    {
-      name: 'Sports and fitness',
-      description: 'keen interest in maintaining my personal fitness level and playing badminton'
-    },
-    {
-      name: 'Reading',
-      description: 'enjoy reading books on self-development, business and finance'
-    }
-  ],
-  interestTags: ['Technology', 'Music', 'Books', 'Sports & Fitness', 'Business', 'Finance']
+  interests: ['Technology', 'Music', 'Books', 'Sports & Fitness', 'Business', 'Finance']
 };
