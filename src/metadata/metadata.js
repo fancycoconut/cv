@@ -76,6 +76,7 @@ module.exports = {
       blurb: 'Currently in the IoT team working on a next generation over-the-air solution for future FPH devices',
       items: [
         'Involved with and contributed towards the design of future system architecture and strategy',
+        'Develop and contribute towards system Platform libraries',
         'Rapidly prototyped new concepts and ideas',
         'Involved with the delivery of customer integration projects that allows our clients to access our patient management APIs',
         'Developed a parser for the CoAP protocol for both UDP and TCP variants for NET',

@@ -131,6 +131,6 @@ a .fa {
 }
 
 /* Customization */
-.interests-section ul {
-  list-style-type: square;
+.facts-section a, .print a {
+  text-decoration: none;
 }

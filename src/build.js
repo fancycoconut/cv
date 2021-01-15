@@ -8,6 +8,20 @@ const dayjs = require('dayjs');
 const repoName = require('git-repo-name');
 const username = require('git-username');
 
+const defaultMargins = {
+  top: '2.54cm',
+  right: '2.54cm',
+  bottom: '2.54cm',
+  left: '2.54cm',
+};
+
+const narrowMargins = {
+  top: '1.27cm',
+  right: '1.27cm',
+  bottom: '1.27cm',
+  left: '1.27cm',
+};
+
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
 
@@ -40,18 +54,7 @@ buildPdf = async function (inputFile, outputFile) {
     path: outputFile,
     format: 'A4',
     border: 0,
-    // margin: {
-    //   top: '2.54cm',
-    //   right: '2.54cm',
-    //   bottom: '2.54cm',
-    //   left: '2.54cm',
-    // },
-    margin: {
-      top: '1.27cm',
-      right: '1.27cm',
-      bottom: '1.27cm',
-      left: '1.27cm',
-    },
+    margin: narrowMargins,
   });
   await browser.close();
 };
