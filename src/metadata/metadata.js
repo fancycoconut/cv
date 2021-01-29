@@ -73,9 +73,10 @@ module.exports = {
       location: 'Auckland',
       start: 'January 2018',
       end: 'Current',
-      blurb: 'Currently in the IoT team working on a next generation over-the-air solution for future FPH devices',
+      blurb: 'Currently in the IoT team',
       items: [
         'Involved with and contributed towards the design of future system architecture and strategy',
+        'Develop and contribute towards system Platform libraries',
         'Rapidly prototyped new concepts and ideas',
         'Involved with the delivery of customer integration projects that allows our clients to access our patient management APIs',
         'Developed a parser for the CoAP protocol for both UDP and TCP variants for NET',
@@ -139,7 +140,7 @@ module.exports = {
       end: 'October 2013',
       blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV clients.',
       items: [
-        'Performed feasibility studies and investigations on various solutions such as Oracle, Pentaho Mondrian, Palo',
+        'Performed feasibility studies and investigations on various solutions such as Oracle OLAP, Pentaho Mondrian, Palo',
         'Researched various OLAP implementations: MOLAP, ROLAP and HOLAP',
         'Performed ETL based on sample data sets from Hansen\'s CISs (Customer Information System)',
         'Developed a proof of concept solution consists of pivot tables, reports and dashboards'

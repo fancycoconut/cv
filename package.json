@@ -13,10 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/fancycoconut/cv.git"
   },
-  "keywords": [
-    "cv",
-    "resume"
-  ],
+  "keywords": ["cv", "resume"],
   "author": "Dmytro Snisarenko <dmytro@sneas.io>",
   "license": "MIT",
   "bugs": {
