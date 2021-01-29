@@ -73,7 +73,7 @@ module.exports = {
       location: 'Auckland',
       start: 'January 2018',
       end: 'Current',
-      blurb: 'Currently in the IoT team working on a next generation over-the-air solution for future FPH devices',
+      blurb: 'Currently in the IoT team',
       items: [
         'Involved with and contributed towards the design of future system architecture and strategy',
         'Develop and contribute towards system Platform libraries',
