@@ -140,7 +140,7 @@ module.exports = {
       end: 'October 2013',
       blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV clients.',
       items: [
-        'Performed feasibility studies and investigations on various solutions such as Oracle, Pentaho Mondrian, Palo',
+        'Performed feasibility studies and investigations on various solutions such as Oracle OLAP, Pentaho Mondrian, Palo',
         'Researched various OLAP implementations: MOLAP, ROLAP and HOLAP',
         'Performed ETL based on sample data sets from Hansen\'s CISs (Customer Information System)',
         'Developed a proof of concept solution consists of pivot tables, reports and dashboards'
