@@ -81,7 +81,7 @@ module.exports = {
         'Involved with the delivery of customer integration projects that allows our clients to access our patient management APIs',
         'Developed a parser for the CoAP protocol for both UDP and TCP variants for NET',
         'Co-developed a gateway for IoT devices that integrates with the in-house communications protocol',
-        'Co-developed various infrastructure Web APIs for enabling a next generation over-the-air solution',
+        'Co-developed various infrastructure Web APIs',
         'Co-developed a dynamic serializer/deserializer library for Protobuf',        
         'Involved with project delivery and coordination for the corporate website that required dealing with various stakeholders from Marketing Operations as well as a remote developer',
         'Developed a custom module for the Kentico CMS used for bundling and packaging content for mobile apps',
