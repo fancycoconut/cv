@@ -59,6 +59,33 @@
       <div class="experience-section">
         {{#each experience}}
         <div class="mb-4">
+          <h5>{{ company }}</h5>
+          <div>
+          {{#each roles}}
+            <h6 class="text-muted">
+              <b>{{ title }}</b>  <span class="experience-right">{{ start }} &mdash; {{ end }}</span>
+            </h6>
+            {{ blurb }}
+            <ul>
+              {{#each items}}
+              <li>{{ this }}</li>
+              {{/each}}
+            </ul>
+          {{/each}} 
+          </div>                   
+
+          <div>
+            {{#each badges }}
+              <span class="badge badge-primary">{{ this }}</span>
+            {{/each}}
+          </div>
+        </div>
+        {{/each}}
+      </div>
+
+      <!-- <div class="experience-section">
+        {{#each experience}}
+        <div class="mb-4">
           <h5>{{ title }}, {{ company }}</h5>
           <h6 class="text-muted">{{ start }} &mdash; {{ end }}</h6>
           {{ blurb }}
@@ -75,7 +102,7 @@
           </div>
         </div>
         {{/each}}
-      </div>
+      </div> -->
 
       <h2>Education</h2>
       <div class="education-section mb-4">
