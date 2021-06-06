@@ -134,3 +134,7 @@ a .fa {
 .facts-section a, .print a {
   text-decoration: none;
 }
+
+.experience-right {
+  float: right;
+}
