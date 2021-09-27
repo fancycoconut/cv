@@ -21,20 +21,21 @@ module.exports = {
       examples: [
         'Microsoft stack: C#, ASP.NET & ASP.NET Core, Web API, MVC, WebForms, Windows Forms, WPF, EntityFramework, SpecFlow',
         'Modern Web stack: JavaScript, TypeScript, NodeJS, jQuery, React, Redux, Angular, HTML5, CSS3, WebPack, SASS/LESS, Bootstrap',
-        'Infrastructure: SQL Server, CosmosDB, MongoDB, RabbitMQ, Azure DevOps CI/CD, Visual Studio project templates, Docker',
+        'Infrastructure: SQL Server, CosmosDB, MongoDB, RabbitMQ, Azure DevOps CI/CD, Visual Studio project templates, Docker, Kubernetes',
         'Other: PHP, Python, Visual Basic, Swift, Protobuf, CoAP',
         'Experienced in web development & integration using industry standard techologies and frameworks',
-        'Experienced with all stages of the Software Development Life Cycle and agile methodologies',
+        'Experienced with all stages of the Software Development Life cycle and agile methodologies',
         'Experienced and knowledge of best practices for software design and architecture'
       ]
     },
     {
       name: 'Leadership Skills',
       examples: [
-        'Worked as a lead developer on large enterprise projects on multiple occassions at ASB Bank',
-        'Involved with project design workshops and meetings as a subject matter expert at ASB Bank',
+        'Lead developer for multiple microservices and other supporting IoT infrastructure at FPH',
         'Proactive in taking up responsibilties within my expertise and knowledge area',
-        'Initiating proof of concepts and side projects to improve existing processes'
+        'Initiating proof of concepts and side projects to improve existing processes',
+        'Worked as a lead developer on large enterprise projects on multiple occassions at ASB Bank',
+        'Involved with project design workshops and meetings as a subject matter expert at ASB Bank'
       ]
     },
     {
@@ -79,9 +80,12 @@ module.exports = {
           //blurb: 'Currently in the IoT team working on a next generation over-the-air solution for future FPH devices',
           items: [
             'Involved with and contributed towards the design of future system architecture and strategy',
+            'Involved with upgrading and dockerization of existing API service components',
+            'Working with Operations to establish the containerization strategy for the use of Docker and Kubernetes within the team',
+            'Setting up CI/CD pipelines and templates for migrating to Azure DevOps',
             'Mentor junior members on best practices of software design and architecture',
-            'Involved with hiring and recruitment',
-            'Involved with upgrading and dockerization of existing service components'
+            'Involved with hiring and recruitment such as Developers and Solutions Architect',
+            'Collaborating with firmware teams to solve problems in the IoT domain for medical devices'
           ]
         },
         {
@@ -99,7 +103,7 @@ module.exports = {
             'Co-developed a dynamic serializer/deserializer library for Protobuf',        
             'Involved with project delivery and coordination for the corporate website that required dealing with various stakeholders from Marketing Operations as well as a remote developer',
             'Developed a custom module for the Kentico CMS used for bundling and packaging content for mobile apps',
-            'Create and build CI/CD pipelines for different projects',
+            'Setup CI/CD pipelines for different projects on TFS on-prem',
             'Set up automated testing infrastructure such as SpecFlow and various other tooling such as project templates and test harnesses',
             'Developed new features for a world class Obstructive Sleep Apnea patient management and monitoring cloud based solution',
             'Involved with the development and distribution of educational mobile apps for training purposes using React Native',
