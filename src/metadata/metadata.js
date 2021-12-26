@@ -68,6 +68,21 @@ module.exports = {
     }
   ],
   experience: [
+    {
+      company: 'Pushpay',
+      location: 'Auckland',
+      roles: [
+        {
+          title: 'Senior Software Development Engineer',
+          start: 'Dec 2021',
+          end: 'Current',
+          blurb: 'Building new features and maintaining client facing APIs and external integrations',
+          items: [
+
+          ]
+        }
+      ]
+    },
     {      
       company: 'Fisher & Paykel Healthcare',
       location: 'Auckland',
@@ -75,9 +90,8 @@ module.exports = {
         {
           title: 'Senior Software Engineer',
           start: 'May 2021',
-          end: 'Current',
-          blurb: 'Currently in the IoT team',
-          //blurb: 'Currently in the IoT team working on a next generation over-the-air solution for future FPH devices',
+          end: 'Nov 2021',
+          blurb: 'In the IoT team building supporting IoT infrastructure and APIs',
           items: [
             'Involved with and contributed towards the design of future system architecture and strategy',
             'Involved with upgrading and dockerization of existing API service components',
@@ -157,7 +171,7 @@ module.exports = {
           ],
         }
       ],
-      badges: ['C#', 'ASP.NET MVC', 'ASP.NET Web Forms', 'SQL Server', 'WPF', 'Windows forms', 'SQL Server Reporting Services', 'HTML5', 'JavaScript', 'CSS', 'jQuery', 'angularJS', 'Visual Basic']
+      badges: ['C#', 'ASP.NET MVC', 'ASP.NET Web Forms', 'SQL Server', 'WPF', 'Windows Forms', 'SQL Server Reporting Services', 'HTML5', 'JavaScript', 'CSS', 'jQuery', 'angularJS', 'Visual Basic']
     },
     {      
       company: 'Hansen Technologies',
