@@ -78,10 +78,13 @@ module.exports = {
           end: 'Current',
           blurb: 'Building new features and maintaining client facing APIs and external integrations',
           items: [
-
+            'Shipping and monitoring via ChatOps',
+            'Creating runbooks for setting up environments and troubleshooting issues',
+            'Involved with support for customer issues, backlog tickets, production issues and maintenance'
           ]
         }
-      ]
+      ],
+      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'Postgres', 'AWS', 'Terraform']
     },
     {      
       company: 'Fisher & Paykel Healthcare',
@@ -98,7 +101,7 @@ module.exports = {
             'Working with Operations to establish the containerization strategy for the use of Docker and Kubernetes within the team',
             'Setting up CI/CD pipelines and templates for migrating to Azure DevOps',
             'Mentor junior members on best practices of software design and architecture',
-            'Involved with hiring and recruitment such as Developers and Solutions Architect',
+            'Involved with interviewing for recruitment such as Developers and Solutions Architect roles',
             'Collaborating with firmware teams to solve problems in the IoT domain for medical devices'
           ]
         },
