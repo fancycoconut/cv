@@ -76,15 +76,15 @@ module.exports = {
           title: 'Senior Software Development Engineer',
           start: 'Dec 2021',
           end: 'Current',
-          blurb: 'Building new features and maintaining client facing APIs and external integrations',
+          blurb: 'In the integrations team, building APIs and external integrations with the Pushpay Giving platform',
           items: [
             'Shipping and monitoring via ChatOps',
-            'Creating runbooks for setting up environments and troubleshooting issues',
+            'Creating run-books for setting up environments and troubleshooting issues',
             'Involved with support for customer issues, backlog tickets, production issues and maintenance'
           ]
         }
       ],
-      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'Postgres', 'AWS', 'Terraform']
+      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'Typescript', 'React', 'GraphQl', 'Postgres', 'AWS', 'Terraform', 'Docker']
     },
     {      
       company: 'Fisher & Paykel Healthcare',
@@ -175,25 +175,6 @@ module.exports = {
         }
       ],
       badges: ['C#', 'ASP.NET MVC', 'ASP.NET Web Forms', 'SQL Server', 'WPF', 'Windows Forms', 'SQL Server Reporting Services', 'HTML5', 'JavaScript', 'CSS', 'jQuery', 'angularJS', 'Visual Basic']
-    },
-    {      
-      company: 'Hansen Technologies',
-      location: 'Auckland',
-      roles: [
-        {
-          title: 'Student Intern',
-          start: 'March 2013',
-          end: 'October 2013',
-          blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV clients.',
-          items: [
-            'Performed feasibility studies and investigations on various solutions such as Oracle OLAP, Pentaho Mondrian, Palo',
-            'Researched various OLAP implementations: MOLAP, ROLAP and HOLAP',
-            'Performed ETL based on sample data sets from Hansen\'s CISs (Customer Information System)',
-            'Developed a proof of concept solution consists of pivot tables, reports and dashboards'
-          ]
-        }
-      ],      
-      badges: ['OLAP', 'ETL', 'Data Warehousing', 'Data Visualization', 'Java', 'MySQL']
     }
   ],
   interests: ['Technology', 'Music', 'Books', 'Sports & Fitness', 'Business', 'Finance']
