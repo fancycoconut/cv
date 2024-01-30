@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Kawai Wong',
-  title: 'Full Stack Developer',
+  title: 'Full Stack Senior Developer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
                   <i class="fa fa-home"></i> Auckland, New Zealand
@@ -76,15 +76,17 @@ module.exports = {
           title: 'Senior Software Development Engineer',
           start: 'Dec 2021',
           end: 'Current',
-          blurb: 'In the integrations team, building APIs and external integrations with the Pushpay Giving platform',
+          blurb: 'Member of a high performing team that looks after APIs and external integrations for the Pushpay Giving platform',
           items: [
-            'Shipping and monitoring via ChatOps',
-            'Creating run-books for setting up environments and troubleshooting issues',
-            'Involved with support for customer issues, backlog tickets, production issues and maintenance'
+            'Feature lead Pushpay\'s next generation Web API platform',
+            'Implement payment transaction syncing integration with external system via REST API',
+            'Taking ownership in supporting engineering experience through docker containers and other tooling/scripts',
+            'Involved with interviewing for recruitment',
+            'Involved with incident response, management and investigation'
           ]
         }
       ],
-      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'Typescript', 'React', 'GraphQl', 'Postgres', 'AWS', 'Terraform', 'Docker']
+      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'Typescript', 'React', 'GraphQl', 'Postgres', 'DynamoDB', 'AWS', 'Terraform', 'Docker']
     },
     {      
       company: 'Fisher & Paykel Healthcare',
