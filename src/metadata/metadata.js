@@ -19,11 +19,11 @@ module.exports = {
     {
       name: 'Technical Skills',
       examples: [
-        'Microsoft stack: C#, ASP.NET & ASP.NET Core, Web API, MVC, WebForms, Windows Forms, WPF, EntityFramework, SpecFlow',
+        'Microsoft stack: C#, ASP.NET Core, Web API, MVC, EntityFramework',
         'Modern Web stack: JavaScript, TypeScript, NodeJS, jQuery, React, Redux, Angular, HTML5, CSS3, WebPack, SASS/LESS, Bootstrap',
-        'Infrastructure: SQL Server, CosmosDB, MongoDB, RabbitMQ, Azure DevOps CI/CD, Visual Studio project templates, Docker, Kubernetes',
-        'Other: PHP, Python, Visual Basic, Swift, Protobuf, CoAP',
-        'Experienced in web development & integration using industry standard techologies and frameworks',
+        'Infrastructure: Azure, AWS, SQL Server, CosmosDB, DynamoDB, RabbitMQ, Docker, Kubernetes',
+        'Other: Python, Protobuf, CoAP',
+        'Experienced in web development & integration using industry standard technologies and frameworks',
         'Experienced with all stages of the Software Development Life cycle and agile methodologies',
         'Experienced and knowledge of best practices for software design and architecture'
       ]
@@ -31,10 +31,10 @@ module.exports = {
     {
       name: 'Leadership Skills',
       examples: [
-        'Lead developer for multiple microservices and other supporting IoT infrastructure at FPH',
-        'Proactive in taking up responsibilties within my expertise and knowledge area',
+        'Lead developer for multiple microservices and other supporting IoT infrastructure at FPH & Pushpay',
+        'Proactive in taking up responsibilities within my expertise and knowledge area',
         'Initiating proof of concepts and side projects to improve existing processes',
-        'Worked as a lead developer on large enterprise projects on multiple occassions at ASB Bank',
+        'Worked as a lead developer on large enterprise projects on multiple occasions at ASB Bank',
         'Involved with project design workshops and meetings as a subject matter expert at ASB Bank'
       ]
     },
@@ -79,7 +79,8 @@ module.exports = {
           blurb: 'Member of a high performing team that looks after APIs and external integrations for the Pushpay Giving platform',
           items: [
             'Feature lead Pushpay\'s next generation Web API platform',
-            'Implement payment transaction syncing integration with external system via REST API',
+            'Involved with migration to microservices from a Monolith',
+            'Implement payment transaction syncing with external systems via vendor APIs',
             'Taking ownership in supporting engineering experience through docker containers and other tooling/scripts',
             'Involved with interviewing for recruitment',
             'Involved with incident response, management and investigation'
