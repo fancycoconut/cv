@@ -1,21 +1,31 @@
-const fs = require('fs');
-const pdf = require('html-pdf');
+const Puppeteer = require('puppeteer');
 
-module.exports = function buildPdf(input, output) {
-  const html = fs.readFileSync(input, 'utf8');
-  const options = {
-    format: 'A4',
-    orientation: 'portrait',
-    border: '2.54cm',
+module.exports = async function buildPdf(inputFile, outputFile) {
+  const browser = await Puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto(`file://${inputFile}`, {
+    waitUntil: 'networkidle0'
+  });
+
+  const defaultMargins = {
+    top: '2.54cm',
+    right: '2.54cm',
+    bottom: '2.54cm',
+    left: '2.54cm',
+  };
+  
+  const narrowMargins = {
+    top: '1.27cm',
+    right: '1.27cm',
+    bottom: '1.27cm',
+    left: '1.27cm',
   };
 
-  return new Promise((resolve, reject) => {
-    pdf.create(html, options).toFile(output, function (err) {
-      if (err) {
-        console.log(err);
-        reject(err);
-      }
-      resolve();
-    });
-  })
-}
+  await page.pdf({
+    path: outputFile,
+    format: 'A4',
+    border: 0,
+    margin: narrowMargins,
+  });
+  await browser.close();
+};
