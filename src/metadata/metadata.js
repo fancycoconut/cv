@@ -41,14 +41,23 @@ module.exports = {
       location: 'Auckland',
       roles: [
         {
+          title: 'Senior Software Development Engineer 2',
+          start: 'Apr 2025',
+          end: 'Current',
+          blurb: 'Member of a high performing team responsible for the Public API and integrations with the Pushpay Giving platform',
+          items: [
+            'Involved with the longer-term engineering strategy for Pushpay\'s next generation Public API',
+            'Oversee and plan migration of new versions of existing API endpoints',
+            'Drive technical design for projects features within the API and integrations domain'
+          ]
+        },
+        {
           title: 'Senior Software Development Engineer',
           start: 'Dec 2021',
-          end: 'Current',
-          blurb: 'Member of a high performing team responsible for Public APIs and integrations with the Pushpay Giving platform',
+          end: 'Mar 2025',
           items: [
             'Feature lead Pushpay\'s next generation Public API platform which involves building new and migrating existing API endpoints as well as various supporting infrastructure',
-            'Co-develop a brand new authorization server for securing Public API endpoints',
-            'Built a new Authorization server that supports code and client credentials flow using the OAuth 2.0 protocol',
+            'Co-develop new Authorization server that supports code and client credentials flow using the OAuth 2.0 protocol',
             'Involved with the adoption of Open Telemetry for microservices and lambda functions',
             'Worked on migrating integration functionality from a monolith to dedicated microservices to speedup development time and improve system resilience',
             'Implement and enhance integrations to synchronize payments, transactions and community members with external systems via vendor APIs',
