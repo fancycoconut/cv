@@ -57,7 +57,7 @@ module.exports = {
           start: 'Dec 2021',
           end: 'Mar 2025',
           items: [
-            'Led development of the next-gen Public API platform, improving build/deployment times by 70% from hours to minutes and enabling faster iteration."',
+            'Led development of the next-gen Public API platform, improving build/deployment times by 70% from hours to minutes and enabling faster iteration',
             'Co‑developed a modern OAuth2 authorization server supporting OAuth2 code and client credentials flows',
             'Lead the adoption of Open Telemetry for microservices and lambda functions which helped improve API response times and bottlenecks',
             'Migrated critical integration features from a monolith to isolated microservices, improving reliability and delivery speed',
