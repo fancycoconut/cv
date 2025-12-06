@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-md-6 col-print-6">
         <h1>{{ name }}</h1>
-        <h3>{{ title }}</h3>
+        <h4>{{ title }}</h4>
           <p>
             <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
           </p>
@@ -36,12 +36,24 @@
       </div>
 
       <p class="screen">
-        I'm passionate about using technology to solve problems and create innovative solutions. I have experienced a wide range different of
-        technologies ranging from mobile to web throughout all phases of the Software Development Lifecycle. I contribute to the design of high 
-        performing solutions and scale-able architecture. I thrive in being adaptable in different environments and strive to keep my customers satisfied.
+        Senior Backend Engineer with 10+ years of experience building distributed systems, Public API platforms, internal 
+        developer tooling, and cloud-native infrastructure across AWS and Azure. I specialize in designing and scaling 
+        backend platforms, enabling safe and progressive delivery, and improving system reliability through observability
+         and robust rollout patterns. I’ve led large-scale API migrations, built authorization and integration systems,
+          introduced OpenTelemetry tracing across platforms, and improved deployment times by over 70%. Passionate about
+           building tooling that empowers teams to ship quickly, safely, and confidently.
       </p>
 
-      <h2>Skills</h2>
+      <h2>Key Achievements</h2>
+      <div class="skills-section mb-4">
+        <ul>
+          {{#each achievements}}
+          <li>{{ this }}</li>
+          {{/each}}
+        </ul>
+      </div>
+
+      <h2>Key Skills</h2>
       <div class="skills-section mb-4">
         {{#each skills}}
         <div>
@@ -65,19 +77,12 @@
             <h6 class="text-muted">
               <b>{{ title }}</b>  <span class="experience-right">{{ start }} &mdash; {{ end }}</span>
             </h6>
-            {{ blurb }}
             <ul>
               {{#each items}}
               <li>{{ this }}</li>
               {{/each}}
             </ul>
           {{/each}} 
-          </div>                   
-
-          <div>
-            {{#each badges }}
-              <span class="badge badge-primary">{{ this }}</span>
-            {{/each}}
           </div>
         </div>
         {{/each}}

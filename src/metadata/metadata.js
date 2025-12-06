@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Kawai Wong',
-  title: 'Senior Software Engineer',
+  title: 'Senior Backend / Platform Software Engineer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
                   <i class="fa fa-home"></i> Auckland, New Zealand
@@ -15,25 +15,25 @@ module.exports = {
                 <i class="fa fa-envelope"></i> kawai.wong@outlook.co.nz
               </a>`
   },
+  achievements: [
+    'Contributed and led the development of next-gen Public API platform to enhance customer stickiness through integration',
+    'Improved CI/CD throughput of new API endpoints by 70%, reducing deployment time from hours to minutes and significantly accelerating engineering delivery',
+    'Introduced distributed tracing via OpenTelemetry across microservices and Lambda functions, improving bottleneck detection and reducing API latency',
+    'Led migration of monolithic integration features into domain‑focused microservices, increasing system resilience and reducing lead time for new integrations',
+    'Built a new OAuth2 authorization server supporting code and client credentials flows, improving security and modernizing the API identity stack',
+    'Established containerization strategy across teams, enabling consistent Docker/Kubernetes usage and improving operational reliability'
+  ],
   skills: [
     {
       name: 'Technical Skills',
       examples: [
-        'Backend: C#, .NET, ASP.NET, Web API, MVC',
-        'Frontend: JavaScript, TypeScript, NodeJS, React, HTML, CSS',
-        'Infrastructure: Azure, AWS, SQL Server, Postgres, CosmosDB, DynamoDB, RabbitMQ, Docker, Kubernetes, CI/CD Pipelines',
-        'Other: Python, Terraform, Pulumi, GraphQL, Protobuf, CoAP',
+        'Architecture: Distributed systems, event-driven design, microservices, API design, OAuth2, observability (Open Telemetry), rollout patterns',
+        'Backend: Python, C#, .NET Core, ASP.NET Web API, Node.js (familiarity)',
+        'Cloud & Infrastructure: AWS (API Gateway, Lambda, ECS, DynamoDB, RDS, S3, SQS, Kinesis), Azure, Terraform, Docker, Kubernetes, Postgres, SQL Server, RabbitMQ, Jenkins',
+        'Frontend: React, TypeScript',
+        'Other: GraphQL, Protobuf, CoAP',
       ]
-    },
-    {
-      name: 'Soft Skills',
-      examples: [
-        'Leadership & feature leading',
-        'Can-do attitude',
-        'Analytical & problem solving',
-        'Adaptability and learning'
-      ]
-    },
+    }
   ],
   experience: [
     {
@@ -44,10 +44,11 @@ module.exports = {
           title: 'Senior Software Development Engineer 2',
           start: 'Apr 2025',
           end: 'Current',
-          blurb: 'Member of a high performing team responsible for the Public API and integrations with the Pushpay Giving platform',
           items: [
-            'Involved with the longer-term engineering strategy for Pushpay\'s next generation Public API',
-            'Oversee and plan migration of new versions of existing API endpoints',
+            'Member of the team responsible for the Public API and integrations platform, enabling safe and predictable delivery of API changes across all customers',
+            'Involved with the longer-term engineering strategy for Pushpay\'s next generation Public API such as REST API standards (naming, version control etc)',
+            'Led the introduction of spec driven development via Open API and leveraging code generation for API endpoints to speed up development',
+            'Oversee and plan migration and safe rollout of new versions of existing API endpoints',
             'Drive technical design for projects features within the API and integrations domain'
           ]
         },
@@ -56,16 +57,16 @@ module.exports = {
           start: 'Dec 2021',
           end: 'Mar 2025',
           items: [
-            'Feature lead Pushpay\'s next generation Public API platform which involves building new and migrating existing API endpoints as well as various supporting infrastructure',
-            'Co-develop new Authorization server that supports code and client credentials flow using the OAuth 2.0 protocol',
-            'Involved with the adoption of Open Telemetry for microservices and lambda functions',
-            'Worked on migrating integration functionality from a monolith to dedicated microservices to speedup development time and improve system resilience',
-            'Implement and enhance integrations to synchronize payments, transactions and community members with external systems via vendor APIs',
-            'Taking ownership in supporting engineering experience through docker containers and various other tooling/scripts',
+            'Led development of the next-gen Public API platform, improving build/deployment times by 70% from hours to minutes and enabling faster iteration',
+            'Co‑developed a modern OAuth2 authorization server supporting OAuth2 code and client credentials flows',
+            'Lead the adoption of Open Telemetry for microservices and lambda functions which helped improve API response times and bottlenecks',
+            'Migrated critical integration features from a monolith to isolated microservices, improving reliability and delivery speed',
+            'Built and enhanced integrations for payment, transaction, and customer sync with external vendor APIs',
+            'Improved the developer experience via Docker tooling, local dev environments, and internal scripts',
+            'Collaborated with teams using feature flagging and staged rollouts to ensure safe, controlled delivery of backend changes'
           ]
         }
       ],
-      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'Typescript', 'React', 'GraphQL', 'Postgres', 'DynamoDB', 'Lambda', 'ECS', 'S3', 'AWS', 'Terraform', 'Docker', 'Localstack', 'OAuth 2.0', 'Auth0', 'Duende']
     },
     {      
       company: 'Fisher & Paykel Healthcare',
@@ -75,14 +76,13 @@ module.exports = {
           title: 'Senior Software Engineer',
           start: 'May 2021',
           end: 'Nov 2021',
-          blurb: 'Member of the IoT team building supporting IoT infrastructure and microservices',
           items: [
+            'Member of the IoT backend services team responsible for device data uploads and IoT infrastructure microservices',
             'Involved with and contributed towards the design of future system architecture and strategy',
-            'Involved with dockerization of existing API microservices',
-            'Working with Operations to establish the containerization strategy for the use of Docker and Kubernetes within the team',
-            'Setting up CI/CD pipelines and templates for migrating to Azure DevOps',
+            'Contributed to future architecture strategy focused on containerization and scalable cloud patterns',
+            'Set up Kubernetes/Docker usage standards and migrated services to container‑based deployments',
             'Mentor junior members on best practices of software design and architecture',
-            'Collaborating with firmware teams to solve problems in the IoT domain for medical devices'
+            'Worked closely with firmware teams to design reliable over‑the‑air update and device communication flows'
           ]
         },
         {
@@ -90,21 +90,17 @@ module.exports = {
           start: 'January 2018',
           end: 'April 2021',
           items: [
-            'Build and maintain Platform libraries and tooling that improve engineering experience',
-            'Developed a parser for the CoAP protocol for both UDP and TCP variants for NET',
-            'Help implement the in-house communications protocol to interface with IoT devices over cellular network',
-            'Co-developed and designed various microservices to enable a next generation over-the-air solution',
-            'Co-developed a dynamic serializer/deserializer library for Protobuf',            
-            'Involved with the development and distribution of educational mobile apps for training purposes using React Native',
-            'Rewrote the user registration process for the SleepStyle iOS app from Objective-C to Swift',
-            'Involved with knowledge sharing of domain and system architecture to team members',
-            'Experienced with design controls for medical devices'
+            'Built Platform libraries and internal tooling to improve engineering productivity',
+            'Developed a CoAP protocol parser (UDP & TCP) and contributed to in‑house IoT communication protocols',
+            'Designed and developed microservices enabling next‑gen over‑the‑air firmware solutions',
+            'Co-developed a dynamic Protobuf serializer/deserializer library',
+            'Contributed to mobile app development (React Native, iOS) including rewriting major user registration workflows',
+            'Supported medical device design controls and ISO27001 requirements'
           ],
         }
-      ],      
-      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'ASP.NET Web Forms', 'SQL Server', 'CosmosDB', 'Dapper', 'AutoMapper', 'Windsor Castle', 'EntityFramework', 'Identity Server', 'SpecFlow', 'Docker', 'Kubernetes', 'Azure Event Hub', 'RabbitMQ', 'Redis', 'Azure DevOps CI/CD', 'Swift', 'Objective-C', 'React Native', 'Protobuf', 'CoAP', 'Design Controls', 'ISO27001']
+      ],
     },
-    {      
+    {
       company: 'Datacom',
       location: 'Auckland',
       roles: [
@@ -112,17 +108,15 @@ module.exports = {
           title: 'Software Developer (ASB Bank)',
           start: 'February 2015',
           end: 'December 2017',
-          blurb: 'Assigned as a Software Developer to work on ASB Bank\'s CRM system in the domain of home loan origination and customer onboarding',
           items: [
-            'Designed and developed REST microservices for the CRM domain',
-            'Built proof of concept for testing automation using Specflow for the CRM team',
-            'Involved as a lead developer and subject matter expert in multiple large projects to provide guidance and technical support',
-            'Delivered various critical compliance projects that are required by the Reserve Bank\'s legislative changes on time',
-            'Involved with a large-scale enterprise upgrade project for ASB\'s CRM system',
+            'Designed and developed REST microservices for ASB\'s CRM platform, supporting home loan origination and customer onboarding',
+            'Served as a lead developer and SME across multiple enterprise projects',
+            'Delivered critical compliance and regulatory changes on time for Reserve Bank deadlines',
+            'Built automation POCs using SpecFlow to improve testing efficiency',
+            'Contributed to enterprise-scale upgrade projects for ASB\'s CRM system',
           ]
-        }        
-      ],      
-      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'ASP.NET Web Forms', 'SQL Server', 'WCF', 'SpecFlow', 'Octopus Deploy'],
+        }
+      ],
     },
     {
       className: 'screen',
@@ -143,7 +137,6 @@ module.exports = {
           ],
         }
       ],
-      badges: ['C#', 'ASP.NET MVC', 'ASP.NET Web Forms', 'SQL Server', 'WPF', 'Windows Forms', 'SQL Server Reporting Services', 'HTML5', 'JavaScript', 'CSS', 'jQuery', 'angularJS', 'Visual Basic']
     },
     {
       className: 'screen',
@@ -163,8 +156,7 @@ module.exports = {
           ]
         }
       ],      
-      badges: ['OLAP', 'ETL', 'Data Warehousing', 'Data Visualization', 'Java', 'MySQL']
     }
   ],
-  interests: ['Technology', 'Music', 'Reading', 'Sports & Fitness', 'Business', 'Finance']
+  interests: ['Technology', 'Distributed Systems', 'Engineering Craft', 'Music', 'Reading', 'Sports & Fitness', 'Business', 'Finance']
 };
