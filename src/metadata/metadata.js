@@ -59,7 +59,7 @@ module.exports = {
           items: [
             'Led development of the next-gen Public API platform, improving build/deployment times by 70% from hours to minutes and enabling faster iteration',
             'Co‑developed a modern OAuth2 authorization server supporting OAuth2 code and client credentials flows',
-            'Lead the adoption of Open Telemetry for microservices and lambda functions which helped improve API response times and bottlenecks',
+            'Led the adoption of Open Telemetry for microservices and lambda functions which helped improve API response times and bottlenecks',
             'Migrated critical integration features from a monolith to isolated microservices, improving reliability and delivery speed',
             'Built and enhanced integrations for payment, transaction, and customer sync with external vendor APIs',
             'Improved the developer experience via Docker tooling, local dev environments, and internal scripts',
@@ -109,7 +109,7 @@ module.exports = {
           start: 'February 2015',
           end: 'December 2017',
           items: [
-            'Designed and developed REST microservices for AS\'s CRM platform, supporting home loan origination and customer onboarding',
+            'Designed and developed REST microservices for ASB\'s CRM platform, supporting home loan origination and customer onboarding',
             'Served as a lead developer and SME across multiple enterprise projects',
             'Delivered critical compliance and regulatory changes on time for Reserve Bank deadlines',
             'Built automation POCs using SpecFlow to improve testing efficiency',
