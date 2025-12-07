@@ -1,6 +1,9 @@
 {
   "name": "cv-fancycoconut",
   "description": "Curriculum Vitae - Kawai Wong",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "node src/build.js",
     "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
