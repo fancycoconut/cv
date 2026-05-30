@@ -61,6 +61,14 @@ templateData.experience = templateData.experience.map(entry => {
   };
 });
 
+// Parse achievements markdown files into flat string arrays
+templateData.achievements = templateData.achievements.flatMap(entry => {
+  if (!entry.achievementsMd) return [entry];
+  const mdPath = path.resolve(__dirname, 'metadata', entry.achievementsMd.replace('./', ''));
+  const content = fs.readFileSync(mdPath, 'utf8');
+  return content.split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).trim());
+});
+
 // Parse skills markdown files into structured skill groups
 templateData.skills = templateData.skills.map(entry => {
   if (!entry.skillsMd) return entry;
