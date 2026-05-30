@@ -15,6 +15,7 @@ module.exports = {
                 <i class="fa fa-envelope"></i> kawai.wong@outlook.co.nz
               </a>`
   },
+  overviewMd: './overview-summary.md',
   achievements: { achievementsMd: './key-achievements.md' },
   skills: { skillsMd: './technical-skills.md' },
   experience: [

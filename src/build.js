@@ -61,6 +61,13 @@ templateData.experience = templateData.experience.map(entry => {
   };
 });
 
+// Parse overview summary markdown file into plain text
+const overviewMdPath = path.resolve(__dirname, 'metadata', templateData.overviewMd.replace('./', ''));
+templateData.overview = fs.readFileSync(overviewMdPath, 'utf8')
+  .replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '')
+  .replace(/^# .+\r?\n?/, '')
+  .trim();
+
 // Parse achievements markdown file into a flat string array
 const achievementsMdPath = path.resolve(__dirname, 'metadata', templateData.achievements.achievementsMd.replace('./', ''));
 const achievementsContent = fs.readFileSync(achievementsMdPath, 'utf8');
