@@ -25,7 +25,7 @@ templateData.experience = templateData.experience.map(entry => {
 
   // Parse YAML frontmatter (simple key: value pairs only)
   const frontmatter = {};
-  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/);
+  const fmMatch = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
   if (fmMatch) {
     for (const line of fmMatch[1].split('\n')) {
       const colon = line.indexOf(':');
@@ -36,7 +36,7 @@ templateData.experience = templateData.experience.map(entry => {
   }
 
   // Strip frontmatter and h1 company heading before parsing roles
-  let content = raw.replace(/^---\n[\s\S]*?\n---\n/, '').replace(/^# .+\n?/, '');
+  let content = raw.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '').replace(/^# .+\r?\n?/, '');
 
   const roles = [];
   for (const section of content.split(/^## /m).filter(s => s.trim())) {
@@ -61,24 +61,19 @@ templateData.experience = templateData.experience.map(entry => {
   };
 });
 
-// Parse achievements markdown files into flat string arrays
-templateData.achievements = templateData.achievements.flatMap(entry => {
-  if (!entry.achievementsMd) return [entry];
-  const mdPath = path.resolve(__dirname, 'metadata', entry.achievementsMd.replace('./', ''));
-  const content = fs.readFileSync(mdPath, 'utf8');
-  return content.split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).trim());
-});
+// Parse achievements markdown file into a flat string array
+const achievementsMdPath = path.resolve(__dirname, 'metadata', templateData.achievements.achievementsMd.replace('./', ''));
+const achievementsContent = fs.readFileSync(achievementsMdPath, 'utf8');
+templateData.achievements = achievementsContent.split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).trim());
 
-// Parse skills markdown files into structured skill groups
-templateData.skills = templateData.skills.map(entry => {
-  if (!entry.skillsMd) return entry;
-  const mdPath = path.resolve(__dirname, 'metadata', entry.skillsMd.replace('./', ''));
-  const content = fs.readFileSync(mdPath, 'utf8');
-  const h1Match = content.match(/^# (.+)$/m);
-  const name = h1Match ? h1Match[1].trim() : '';
-  const examples = content.split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).trim());
-  return { ...entry, name, examples };
-});
+// Parse skills markdown file into a structured skill group
+const skillsMdPath = path.resolve(__dirname, 'metadata', templateData.skills.skillsMd.replace('./', ''));
+const skillsContent = fs.readFileSync(skillsMdPath, 'utf8');
+const skillsH1 = skillsContent.match(/^# (.+)$/m);
+templateData.skills = [{
+  name: skillsH1 ? skillsH1[1].trim() : '',
+  examples: skillsContent.split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).trim()),
+}];
 
 // Build HTML
 handlebars.registerHelper('markdown', markdownHelper);
