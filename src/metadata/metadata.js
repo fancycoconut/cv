@@ -39,123 +39,29 @@ module.exports = {
     {
       company: 'Pushpay',
       location: 'Auckland',
-      roles: [
-        {
-          title: 'Senior Software Development Engineer 2',
-          start: 'Apr 2025',
-          end: 'Current',
-          items: [
-            'Member of the team responsible for the Public API and integrations platform, enabling safe and predictable delivery of API changes across all customers',
-            'Involved with the longer-term engineering strategy for Pushpay\'s next generation Public API such as REST API standards (naming, version control etc)',
-            'Led the introduction of spec driven development via Open API and leveraging code generation for API endpoints to speed up development',
-            'Oversee and plan migration and safe rollout of new versions of existing API endpoints',
-            'Drive technical design for projects features within the API and integrations domain'
-          ]
-        },
-        {
-          title: 'Senior Software Development Engineer',
-          start: 'Dec 2021',
-          end: 'Mar 2025',
-          items: [
-            'Led development of the next-gen Public API platform, improving build/deployment times by 70% from hours to minutes and enabling faster iteration',
-            'Co‑developed a modern OAuth2 authorization server supporting OAuth2 code and client credentials flows',
-            'Led the adoption of Open Telemetry for microservices and lambda functions which helped improve API response times and bottlenecks',
-            'Migrated critical integration features from a monolith to isolated microservices, improving reliability and delivery speed',
-            'Built and enhanced integrations for payment, transaction, and customer sync with external vendor APIs',
-            'Improved the developer experience via Docker tooling, local dev environments, and internal scripts',
-            'Collaborated with teams using feature flagging and staged rollouts to ensure safe, controlled delivery of backend changes'
-          ]
-        }
-      ],
+      experienceMd: './work-experience/pushpay.md',
     },
-    {      
+    {
       company: 'Fisher & Paykel Healthcare',
       location: 'Auckland',
-      roles: [
-        {
-          title: 'Senior Software Engineer',
-          start: 'May 2021',
-          end: 'Nov 2021',
-          items: [
-            'Member of the IoT backend services team responsible for device data uploads and IoT infrastructure microservices',
-            'Involved with and contributed towards the design of future system architecture and strategy',
-            'Contributed to future architecture strategy focused on containerization and scalable cloud patterns',
-            'Set up Kubernetes/Docker usage standards and migrated services to container‑based deployments',
-            'Mentor junior members on best practices of software design and architecture',
-            'Worked closely with firmware teams to design reliable over‑the‑air update and device communication flows'
-          ]
-        },
-        {
-          title: 'Solutions Developer',
-          start: 'January 2018',
-          end: 'April 2021',
-          items: [
-            'Built Platform libraries and internal tooling to improve engineering productivity',
-            'Developed a CoAP protocol parser (UDP & TCP) and contributed to in‑house IoT communication protocols',
-            'Designed and developed microservices enabling next‑gen over‑the‑air firmware solutions',
-            'Co-developed a dynamic Protobuf serializer/deserializer library',
-            'Contributed to mobile app development (React Native, iOS) including rewriting major user registration workflows',
-            'Supported medical device design controls and ISO27001 requirements'
-          ],
-        }
-      ],
+      experienceMd: './work-experience/fisher-and-paykel-healthcare.md',
     },
     {
       company: 'Datacom',
       location: 'Auckland',
-      roles: [
-        {
-          title: 'Software Developer (ASB Bank)',
-          start: 'February 2015',
-          end: 'December 2017',
-          items: [
-            'Designed and developed REST microservices for ASB\'s CRM platform, supporting home loan origination and customer onboarding',
-            'Served as a lead developer and SME across multiple enterprise projects',
-            'Delivered critical compliance and regulatory changes on time for Reserve Bank deadlines',
-            'Built automation POCs using SpecFlow to improve testing efficiency',
-            'Contributed to enterprise-scale upgrade projects for ASB\'s CRM system',
-          ]
-        }
-      ],
+      experienceMd: './work-experience/datacom.md',
     },
     {
       className: 'screen',
       company: 'ACIT',
       location: 'Auckland',
-      roles: [
-        {
-          title: 'Junior Developer',
-          start: 'November 2012',
-          end: 'November 2014',
-          blurb: 'Developed and maintained customized business workflow management solutions and maternity management software for midwives.',
-          items: [
-            'Researched and developed an antenatal growth chart generator to integrate with the existing maternity management software',
-            'Built user interfaces for workflow management solutions and introduced a windows metro style design to new projects',
-            'Develop and maintain customized workflow management software for various small to medium businesses',
-            'Performed data migration exercises when integrating or migrating from legacy systems',
-            'Worked with clients to troubleshoot and diagnose issues'
-          ],
-        }
-      ],
+      experienceMd: './work-experience/acit.md',
     },
     {
       className: 'screen',
       company: 'Hansen Technologies',
       location: 'Auckland',
-      roles: [
-        {
-          title: 'Student Intern',
-          start: 'March 2013',
-          end: 'October 2013',
-          blurb: 'Worked as an intern doing a final year project to come up with a Business Intelligence solution using OLAP for Utility, Telecom and Pay TV clients.',
-          items: [
-            'Performed feasibility studies and investigations on various solutions such as Oracle OLAP, Pentaho Mondrian, Palo',
-            'Researched various OLAP implementations: MOLAP, ROLAP and HOLAP',
-            'Performed ETL based on sample data sets from Hansen\'s CISs (Customer Information System)',
-            'Developed a proof of concept solution consists of pivot tables, reports and dashboards'
-          ]
-        }
-      ],      
+      experienceMd: './work-experience/hansen-technologies.md',
     }
   ],
   interests: ['Technology', 'Distributed Systems', 'Engineering Craft', 'Music', 'Reading', 'Sports & Fitness', 'Business', 'Finance']
