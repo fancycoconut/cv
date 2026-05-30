@@ -21,9 +21,22 @@ fs.copySync(srcDir + '/assets', outputDir);
 templateData.experience = templateData.experience.map(entry => {
   if (!entry.experienceMd) return entry;
   const mdPath = path.resolve(__dirname, 'metadata', entry.experienceMd.replace('./', ''));
-  let content = fs.readFileSync(mdPath, 'utf8');
-  // Strip YAML frontmatter and h1 company heading
-  content = content.replace(/^---\n[\s\S]*?\n---\n/, '').replace(/^# .+\n?/, '');
+  const raw = fs.readFileSync(mdPath, 'utf8');
+
+  // Parse YAML frontmatter (simple key: value pairs only)
+  const frontmatter = {};
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/);
+  if (fmMatch) {
+    for (const line of fmMatch[1].split('\n')) {
+      const colon = line.indexOf(':');
+      if (colon !== -1) {
+        frontmatter[line.slice(0, colon).trim()] = line.slice(colon + 1).trim();
+      }
+    }
+  }
+
+  // Strip frontmatter and h1 company heading before parsing roles
+  let content = raw.replace(/^---\n[\s\S]*?\n---\n/, '').replace(/^# .+\n?/, '');
 
   const roles = [];
   for (const section of content.split(/^## /m).filter(s => s.trim())) {
@@ -40,7 +53,12 @@ templateData.experience = templateData.experience.map(entry => {
     roles.push({ title, start, end, items });
   }
 
-  return { ...entry, roles };
+  return {
+    ...entry,
+    ...(frontmatter.location && { location: frontmatter.location }),
+    ...(frontmatter.className && { className: frontmatter.className }),
+    roles,
+  };
 });
 
 // Build HTML

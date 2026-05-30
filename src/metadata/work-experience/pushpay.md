@@ -1,5 +1,6 @@
 ---
 company: Pushpay
+location: Auckland
 ---
 # Pushpay
 

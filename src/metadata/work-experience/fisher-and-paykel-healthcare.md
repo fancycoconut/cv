@@ -1,5 +1,6 @@
 ---
 company: Fisher & Paykel Healthcare
+location: Auckland
 ---
 # Fisher & Paykel Healthcare
 

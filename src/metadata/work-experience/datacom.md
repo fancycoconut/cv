@@ -1,5 +1,6 @@
 ---
 company: Datacom
+location: Auckland
 ---
 # Datacom
 
