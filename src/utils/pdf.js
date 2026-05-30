@@ -1,7 +1,9 @@
 const Puppeteer = require('puppeteer');
 
 module.exports = async function buildPdf(inputFile, outputFile) {
-  const browser = await Puppeteer.launch();
+  const browser = await Puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
