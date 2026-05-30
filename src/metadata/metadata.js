@@ -38,29 +38,22 @@ module.exports = {
   experience: [
     {
       company: 'Pushpay',
-      location: 'Auckland',
       experienceMd: './work-experience/pushpay.md',
     },
     {
       company: 'Fisher & Paykel Healthcare',
-      location: 'Auckland',
       experienceMd: './work-experience/fisher-and-paykel-healthcare.md',
     },
     {
       company: 'Datacom',
-      location: 'Auckland',
       experienceMd: './work-experience/datacom.md',
     },
     {
-      className: 'screen',
       company: 'ACIT',
-      location: 'Auckland',
       experienceMd: './work-experience/acit.md',
     },
     {
-      className: 'screen',
       company: 'Hansen Technologies',
-      location: 'Auckland',
       experienceMd: './work-experience/hansen-technologies.md',
     }
   ],

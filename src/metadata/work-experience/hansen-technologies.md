@@ -1,5 +1,7 @@
 ---
 company: Hansen Technologies
+location: Auckland
+className: screen
 ---
 # Hansen Technologies
 
