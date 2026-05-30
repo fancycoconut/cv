@@ -1,5 +1,5 @@
-const markdown = require('markdown').markdown;
+const { marked } = require('marked');
 
 module.exports = function (text) {
-  return markdown.toHTML(text);
+  return marked(text);
 };
