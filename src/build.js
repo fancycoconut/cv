@@ -61,6 +61,17 @@ templateData.experience = templateData.experience.map(entry => {
   };
 });
 
+// Parse skills markdown files into structured skill groups
+templateData.skills = templateData.skills.map(entry => {
+  if (!entry.skillsMd) return entry;
+  const mdPath = path.resolve(__dirname, 'metadata', entry.skillsMd.replace('./', ''));
+  const content = fs.readFileSync(mdPath, 'utf8');
+  const h1Match = content.match(/^# (.+)$/m);
+  const name = h1Match ? h1Match[1].trim() : '';
+  const examples = content.split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).trim());
+  return { ...entry, name, examples };
+});
+
 // Build HTML
 handlebars.registerHelper('markdown', markdownHelper);
 const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
