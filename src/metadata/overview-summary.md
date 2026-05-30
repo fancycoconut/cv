@@ -1,0 +1,3 @@
+# Overview
+
+Senior Backend Engineer with 10+ years of experience building distributed systems, Public API platforms, internal developer tooling, and cloud-native infrastructure across AWS and Azure. I specialize in designing and scaling backend platforms, enabling safe and progressive delivery, and improving system reliability through observability and robust rollout patterns. I've led large-scale API migrations, built authorization and integration systems, introduced OpenTelemetry tracing across platforms, and improved deployment times by over 70%. Passionate about building tooling that empowers teams to ship quickly, safely, and confidently.
