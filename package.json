@@ -8,7 +8,7 @@
     "build": "node src/build.js",
     "watch": "chokidar \"src/**/*\" -c \"npm run build\"",
     "prestart": "npm run build",
-    "start": "npm run watch & browser-sync start --server dist --files \"dist/**/*\"",
+    "start": "concurrently \"npm run watch\" \"browser-sync start --server dist --files 'dist/**/*'\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -21,10 +21,11 @@
     "resume"
   ],
   "devDependencies": {
+    "browser-sync": "^3.0.4",
     "chokidar-cli": "^3.0.0",
+    "concurrently": "^10.0.0",
     "dayjs": "^1.11.21",
     "fs-extra": "^11.3.5",
-    "browser-sync": "^3.0.4",
     "gh-pages": "^6.0.0",
     "handlebars": "^4.7.9",
     "marked": "^15.0.12",
