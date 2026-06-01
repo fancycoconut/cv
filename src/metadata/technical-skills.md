@@ -7,3 +7,4 @@
 - Engineering Practices: Technical Leadership, Platform Engineering
 - Other: Protobuf, CoAP
 - AI: Familiarity with AI concepts and tools, including large language models (LLMs) and prompt engineering, with practical experience in integrating AI capabilities into day to day development workflows.
+- Certifications: AWS Certified AI Practitioner
