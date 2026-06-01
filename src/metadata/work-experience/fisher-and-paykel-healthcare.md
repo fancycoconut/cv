@@ -8,20 +8,18 @@ location: Auckland
 
 ### May 2021 — November 2021
 
-- Member of the IoT backend services team responsible for device data uploads and IoT infrastructure microservices
-- Involved with and contributed towards the design of future system architecture and strategy
-- Contributed to future architecture strategy focused on containerization and scalable cloud patterns
-- Set up Kubernetes/Docker usage standards and migrated services to container‑based deployments
-- Mentor junior members on best practices of software design and architecture
-- Worked closely with firmware teams to design reliable over‑the‑air update and device communication flows
+- Established Kubernetes/Docker usage standards and migrated IoT infrastructure microservices to container-based deployments, improving deployment consistency and environment parity
+- Collaborated with firmware teams to design reliable over-the-air update and device communication flows, reducing risk in safety-critical update paths
+- Shaped future architecture strategy around containerization and scalable cloud patterns for the IoT backend platform
+- Mentored junior engineers on software design and architecture best practices, improving team capability and code quality
 
 ## Solutions Developer
 
 ### January 2018 — April 2021
 
-- Built Platform libraries and internal tooling to improve engineering productivity
-- Developed a CoAP protocol parser (UDP & TCP) and contributed to in‑house IoT communication protocols
-- Designed and developed microservices enabling next‑gen over‑the‑air firmware solutions
-- Co-developed a dynamic Protobuf serializer/deserializer library
-- Contributed to mobile app development (React Native, iOS) including rewriting major user registration workflows
-- Supported medical device design controls and ISO27001 requirements
+- Co-Designed and developed microservices powering next-gen over-the-air firmware update solutions, enabling reliable remote updates across the device fleet
+- Developed a CoAP protocol parser (UDP & TCP) and contributed to in-house IoT communication protocols, improving device-to-cloud communication reliability
+- Co-developed a dynamic Protobuf serializer/deserializer library, reducing serialization boilerplate across services
+- Built platform libraries and internal tooling to improve engineering productivity across the team
+- Contributed to mobile app development (React Native, iOS), including rewriting major user registration workflows
+- Supported medical device design controls and ISO 27001 compliance requirements
