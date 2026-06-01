@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Kawai Wong',
-  title: 'Senior Backend / Platform Software Engineer',
+  title: 'Senior Backend Engineer | Platform Engineer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
                   <i class="fa fa-home"></i> Auckland, New Zealand
