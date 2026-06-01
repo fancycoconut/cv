@@ -1,6 +1,15 @@
 @media print {
   body {
-    font-size: 18px;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .container {
+    max-width: 100%;
   }
 
   .screen {
@@ -19,9 +28,9 @@
     border: 0.07rem solid #868e96;
   }
 
-  .badge-primary {
-    color: inherit;
-    background-color: inherit;
+  .badge.bg-primary {
+    color: inherit !important;
+    background-color: inherit !important;
   }
 }
 
