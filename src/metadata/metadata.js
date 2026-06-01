@@ -6,7 +6,7 @@ module.exports = {
                   <i class="fa fa-home"></i> Auckland, New Zealand
                 </a>`,
     'LinkedIn': `<a href="https://www.linkedin.com/in/kawaiw/">
-                  <i class="fa fa-linkedin"></i> kawaiw
+                  <i class="fa fa-linkedin"></i> linkedin.com/in/kawaiw
                 </a>`,
     'GitHub': `<a href="https://github.com/fancycoconut">
                   <i class="fa fa-github"></i> fancycoconut
