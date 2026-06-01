@@ -1,6 +1,6 @@
 # Technical Skills
 
-- Languages: C#, Python, Terraform, TypeScript
+- Languages: C#, Python, TypeScript
 - Frameworks: .NET Core, ASP.NET Web API, React, Node.js (familiarity)
 - Architecture: System Design, Distributed Architecture, Domain-Driven Design (DDD), Microservices, API design, OAuth2, REST, GraphQL, event-driven design, observability (OpenTelemetry), rollout patterns
 - Cloud & Infrastructure: AWS (API Gateway, Lambda, ECS, DynamoDB, RDS, S3, SQS, Kinesis), Azure, Terraform, Docker, Kubernetes, PostgreSQL, SQL Server, RabbitMQ, Serverless, CI/CD (Jenkins), DevOps
