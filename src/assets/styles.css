@@ -206,7 +206,7 @@ h1, h2, h4, h5, h6 {
   }
 }
 
-a .fa {
+a .fa, a .fa-brands {
   text-decoration: none !important;
   margin-right: 5px;
 }
