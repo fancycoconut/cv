@@ -13,8 +13,8 @@
     <div class="container page">
       <div class="row">
         <div class="col-md-6 col-print-6">
-        <h1>{{ name }}</h1>
-        <h4>{{ title }}</h4>
+          <h1>{{ name }}</h1>
+          <h4>{{ title }}</h4>
           <p>
             <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
           </p>
@@ -25,6 +25,7 @@
             </span>
           </p>
         </div>
+
         <div class="facts-section col-md-6 col-print-6">
           <dl class="row">
             {{#each facts}}
@@ -80,7 +81,6 @@
         </div>
         {{/each}}
       </div>
-      <br class="print" />
 
       <h2>Education</h2>
       <div class="education-section mb-4">
