@@ -16,11 +16,11 @@
           <h1>{{ name }}</h1>
           <h4>{{ title }}</h4>
           <p>
-            <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
+            <time class="last-updated" datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
           </p>
           <p>
             <span class="screen"><a href="{{ pdfFileName }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>&nbsp;Download PDF version</a></span>
-            <span class="print">
+            <span class="available-online print">
               The online version is available at <a href="{{ baseUrl }}" class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i>&nbsp;{{ baseUrl }}</a>
             </span>
           </p>
