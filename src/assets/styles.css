@@ -69,6 +69,17 @@ h1, h2, h4, h5, h6 {
     font-size: 0.8em;
   }
 
+  .facts-section dl.row dt {
+    float: left;
+    clear: left;
+    width: 25%;
+  }
+
+  .facts-section dl.row dd {
+    float: left;
+    width: 75%;
+  }
+
   .card {
     border: none;
   }
