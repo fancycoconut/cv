@@ -73,15 +73,23 @@ h1, h2, h4, h5, h6 {
     font-size: 0.9em;
   }
 
+  .facts-section dl.row {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin-left: auto;
+  }
+
   .facts-section dl.row dt {
-    float: left;
-    clear: left;
-    width: 25%;
+    text-align: right;
+    padding-right: 0.5em;
+    width: auto;
   }
 
   .facts-section dl.row dd {
-    float: left;
-    width: 75%;
+    text-align: left;
+    margin-left: 0;
+    width: auto;
   }
 
   .card {
@@ -124,6 +132,11 @@ h1, h2, h4, h5, h6 {
 
   dt {
     font-weight: normal;
+    text-align: right;
+  }
+
+  dd {
+    text-align: left;
   }
 
   strong {
@@ -204,6 +217,18 @@ a .fa {
 }
 
 /* Customization */
+.facts-section dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.facts-section dl dt,
+.facts-section dl dd {
+  width: auto;
+}
+
 .facts-section a, .print a, .screen a {
   text-decoration: none;
 }

@@ -6,10 +6,10 @@ module.exports = {
                   <i class="fa fa-home"></i>Auckland, New Zealand
                 </a>`,
     'LinkedIn': `<a href="https://www.linkedin.com/in/kawaiw/">
-                  <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;linkedin.com/in/kawaiw
+                  <i class="fa-brands fa-linkedin"></i>linkedin.com/in/kawaiw
                 </a>`,
     'GitHub': `<a href="https://github.com/fancycoconut">
-                  <i class="fa-brands fa-github"></i>&nbsp;&nbsp;&nbsp;fancycoconut
+                  <i class="fa-brands fa-github"></i>fancycoconut
                 </a>`,
     'Email': `<a href="mailto:kawai.wong@outlook.co.nz">
                 <i class="fa fa-envelope"></i>kawai.wong@outlook.co.nz
