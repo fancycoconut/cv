@@ -224,11 +224,17 @@ a .fa, a .fa-brands {
   grid-template-columns: auto auto;
   width: fit-content;
   margin-left: auto;
+  column-gap: 0.35rem;
+  row-gap: 0.15rem;
 }
 
 .facts-section dl dt,
 .facts-section dl dd {
   width: auto;
+}
+
+.facts-section dl dt {
+  font-weight: 600;
 }
 
 .facts-section a, .print a, .screen a {
