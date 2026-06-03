@@ -47,6 +47,10 @@ li {
   margin-bottom: 0.25rem;
 }
 
+@page {
+  margin: 0.4cm 1cm;
+}
+
 /* Screen/print visibility toggles */
 @media print {
   span.print {
@@ -107,7 +111,8 @@ li {
   }
 
   .container {
-    max-width: 100%;
+    max-width: 100% !important;
+    padding: 0 !important;
   }
 
   .screen {
