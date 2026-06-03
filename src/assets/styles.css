@@ -20,7 +20,7 @@ h2 { font-size: 1.3rem; letter-spacing: 0.04em; text-transform: uppercase; }
 h3 { font-size: 1.75rem; }
 h4 { font-size: 1.15rem; }
 h5 { font-size: 1.15rem; }
-h6 { font-size: 0.9rem; margin-top: 0.15rem; }
+h6 { font-size: 0.9rem; margin-top: 0.15rem; color: #6c757d; }
 
 h1, h3, h4 {
   font-weight: 300;
@@ -84,6 +84,9 @@ li {
 
   h6 {
     font-size: 0.8rem;
+    color: #6c757d !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   h6 b {
