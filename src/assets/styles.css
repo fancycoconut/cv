@@ -20,7 +20,7 @@ h2 { font-size: 1.3rem; letter-spacing: 0.04em; text-transform: uppercase; }
 h3 { font-size: 1.75rem; }
 h4 { font-size: 1.15rem; }
 h5 { font-size: 1.15rem; }
-h6 { font-size: 0.9rem; }
+h6 { font-size: 0.9rem; margin-top: 0.15rem; }
 
 h1, h3, h4 {
   font-weight: 300;
@@ -210,6 +210,7 @@ a .fa, a .fa-brands {
   border-radius: 0.25rem;
   background-color: #0d6efd;
   color: #fff;
+  margin-bottom: 0.25rem;
 }
 
 /* Text muted */
