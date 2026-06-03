@@ -21,10 +21,10 @@ module.exports = async function buildPdf(inputFile, outputFile) {
   };
   
   const narrowMargins = {
-    top: '1.27cm',
-    right: '1.27cm',
-    bottom: '1.27cm',
-    left: '1.27cm',
+    top: '0.4cm',
+    right: '1cm',
+    bottom: '0.4cm',
+    left: '1cm',
   };
 
   await page.pdf({
