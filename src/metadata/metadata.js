@@ -9,7 +9,7 @@ module.exports = {
                   <i class="fa-brands fa-linkedin"></i>linkedin.com/in/kawaiw
                 </a>`,
     'GitHub': `<a href="https://github.com/fancycoconut">
-                  <i class="fa-brands fa-github"></i>fancycoconut
+                  <i class="fa-brands fa-github"></i>github.com/fancycoconut
                 </a>`,
     'Email': `<a href="mailto:kawai.wong@outlook.co.nz">
                 <i class="fa fa-envelope"></i>kawai.wong@outlook.co.nz
@@ -20,23 +20,23 @@ module.exports = {
   skills: { skillsMd: './technical-skills.md' },
   experience: [
     {
-      company: 'Pushpay',
+      company: 'Pushpay (Fintech / SaaS)',
       experienceMd: './work-experience/pushpay.md',
     },
     {
-      company: 'Fisher & Paykel Healthcare',
+      company: 'Fisher & Paykel Healthcare (IoT / Medical Device)',
       experienceMd: './work-experience/fisher-and-paykel-healthcare.md',
     },
     {
-      company: 'Datacom',
+      company: 'Datacom (Banking / IT Consultancy)',
       experienceMd: './work-experience/datacom.md',
     },
     {
-      company: 'ACIT',
+      company: 'ACIT (IT Consultancy / Software Development)',
       experienceMd: './work-experience/acit.md',
     },
     {
-      company: 'Hansen Technologies',
+      company: 'Hansen Technologies (Energy & Utilities)',
       experienceMd: './work-experience/hansen-technologies.md',
     }
   ],
