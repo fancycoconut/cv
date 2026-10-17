@@ -27,7 +27,7 @@
     "dayjs": "^1.11.21",
     "fs-extra": "^11.3.5",
     "gh-pages": "^6.0.0",
-    "handlebars": "^4.7.9",
+    "handlebars": "^4.7.10",
     "marked": "^15.0.12",
     "puppeteer": "^25.1.0",
     "speakingurl": "^14.0.1"
